@@ -4,9 +4,9 @@ Welcome to the GitHub repository for our Cartesian Robot GUI & Control, part of 
 
 ## Team Members
 
-- Member 1: [Name] - [Student ID]
-- Member 2: [Name] - [Student ID]
-- ... (Add all team members with their IDs)
+- Member 1: [Rega Towinangun ] - [4121600037]
+- Member 2: [Alfin Rizki Prayoga] - [4121600052]
+- Member 3: [Axel jeremy rijadi] - [4121600055]
 
 ## Repository Structure
 
