@@ -116,8 +116,11 @@ void startMovement() {
 }
 
 void stopMovement() {
-  // Menghentikan pergerakan motor
+  // Memberhentikan pergerakan motor
+  myStepperx.setSpeed(0);
   myStepperx.step(0);
+  
+  mySteppery.setSpeed(0);
   mySteppery.step(0);
 }
 

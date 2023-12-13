@@ -2,7 +2,7 @@ import serial
 import tkinter as tk
 from tkinter.font import Font
 
-arduino = serial.Serial('COM 9',9600)
+arduino = serial.Serial('COM5', 9600)
 
 def send_command(command):
     try:
@@ -10,22 +10,19 @@ def send_command(command):
     except serial.SerialException as e:
         print(f"Error: {e}")
 
-# Python GUI Code
 def write_coordinates():
     try:
         x = float(x_entry.get())
         y = float(y_entry.get())
-        send_command('v')
+
+        # Kirim perintah untuk menggerakan motor stepper ke koordinat X dan Y
+        send_command(f'x{x}y{y}')
+
+        # Update label dengan koordinat yang dikirim
         coordinates_label.config(text=f"Koordinat XY: {x}, {y}")
     except ValueError:
         print("Error: Masukkan angka valid untuk X dan Y")
 
-def start_robot():
-    try:
-        send_command('t')
-        start_label.config(text="Robot Mulai Bergerak")
-    except serial.SerialException as e:
-        print(f"Error: {e}")
 
 def stop_robot():
     try:
@@ -71,13 +68,8 @@ y_label.pack()
 y_entry = tk.Entry(root, font=font)
 y_entry.pack()
 
-coordinates_button = tk.Button(root, text="Tampilkan Koordinat", font=font, bg="#FF4500", fg="white", command=display_coordinates)
+coordinates_button = tk.Button(root, text="START ROBOT", font=font, bg="#FF4500", fg="white", command=write_coordinates)
 coordinates_button.pack(pady=10)
-
-start_button = tk.Button(root, text="START ROBOT", font=font, bg="#4682B4", fg="white", command=start_robot)
-start_button.pack(pady=10)
-start_label = tk.Label(root, text="", font=font, bg="#F5F5F5")
-start_label.pack()
 
 stop_button = tk.Button(root, text="STOP ROBOT", font=font, bg="#CD853F", fg="white", command=stop_robot)
 stop_button.pack(pady=10)
