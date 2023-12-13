@@ -98,7 +98,7 @@ void moveStepperY() {
     moveStepperY(stepsY);
     Serial.print("Y = ");
     Serial.println(currentPositionY);
-    delay(10);
+    delay(20);
   }
 }
 
