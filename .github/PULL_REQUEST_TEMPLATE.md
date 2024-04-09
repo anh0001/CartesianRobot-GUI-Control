@@ -1,39 +1,7 @@
 # Pull Request Template
 
 ## Description
-Deskripsi dari robot kartesian pergerakan X dan Y yang diinput melalui GUI dari Python dapat berbunyi sebagai berikut:
-
----
-
-**Deskripsi Robot Kartesian dengan GUI Python**
-
-Robot ini merupakan sistem pergerakan kartesian yang dapat dikendalikan melalui antarmuka pengguna grafis (GUI) yang dibangun dengan menggunakan bahasa pemrograman Python. Robot ini memiliki dua sumbu utama, yaitu sumbu X dan sumbu Y, yang memungkinkan pergerakan linier pada bidang datar.
-
-**Fitur Utama:**
-
-1. **Kontrol Melalui GUI:** Pengguna dapat mengontrol pergerakan robot dengan memberikan input koordinat X dan Y melalui GUI Python.
-
-2. **Antarmuka Pengguna Yang Ramah:** GUI disusun agar mudah digunakan, menyediakan area input untuk koordinat X dan Y, serta tombol-tombol kontrol seperti "Move" untuk memulai pergerakan robot.
-
-3. **Real-Time Feedback:** Sistem memberikan umpan balik waktu nyata tentang posisi robot selama pergerakan, memungkinkan pengguna untuk memonitor pergerakan secara langsung.
-
-4. **Koordinat dalam Satuan Fisik:** Robot memahami koordinat yang dimasukkan dalam satuan fisik tertentu, seperti milimeter atau sentimeter, dan mengubahnya menjadi pergerakan motor yang sesuai.
-
-5. **Kecepatan dan Akselerasi Terkontrol:** Kecepatan dan akselerasi robot dapat diatur sesuai kebutuhan, memungkinkan kontrol yang halus dan presisi.
-
-**Cara Kerja:**
-
-1. **Input Koordinat:** Pengguna memasukkan nilai koordinat X dan Y pada GUI Python.
-
-2. **Konversi Koordinat:** Sistem mengonversi koordinat tersebut ke langkah-langkah motor, mempertimbangkan parameter seperti jumlah langkah per revolusi dan radius roda.
-
-3. **Pergerakan Motor:** Robot memulai pergerakan linier ke koordinat yang diinginkan dengan menggerakkan motor pada sumbu X dan Y secara simultan.
-
-4. **Monitoring Real-Time:** GUI menampilkan posisi aktual robot secara real-time selama pergerakan, memungkinkan pengguna memantau pergerakan dengan akurat.
-
-5. **Berhenti dan Kontrol:** Pengguna dapat menghentikan pergerakan robot kapan pun dengan menggunakan tombol "Stop", dan juga dapat mengontrol kecepatan dan akselerasi pergerakan.
-
-Robot kartesian dengan GUI Python ini dapat digunakan dalam berbagai aplikasi, termasuk pemosisian presisi, pemindahan barang, atau tugas-tugas lain yang melibatkan pergerakan dua dimensi. Dengan antarmuka pengguna yang intuitif, pengoperasian robot menjadi lebih mudah dan dapat diakses oleh berbagai kalangan.
+Please include a summary of the change and which issue is fixed. Also, include relevant motivation and context. List any dependencies that are required for this change.
 
 Fixes # (issue number)
 
