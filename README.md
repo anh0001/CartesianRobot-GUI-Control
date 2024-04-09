@@ -4,9 +4,15 @@ Welcome to the GitHub repository for our Cartesian Robot GUI & Control, part of 
 
 ## Team Members
 
-- Member 1: [Name] - [Student ID]
-- Member 2: [Name] - [Student ID]
-- ... (Add all team members with their IDs)
+- Mechatronics A 2021:
+  - Riswanda Nuruddin Farij - 4121600011
+  - Alief Noer Ahmad - 4121600022
+  - Alifianto Fahmi Syahputra - 4121600023
+    
+- Mechatronics B 2021:
+  - Rega Towinangun - 4121600037
+  - Alfin Rizki Prayoga - 4121600052
+  - Axel Jeremy Rijadi - 4121600055
 
 ## Repository Structure
 
