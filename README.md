@@ -8,7 +8,7 @@ Welcome to the GitHub repository for our Cartesian Robot GUI & Control, part of 
   - Riswanda Nuruddin Farij - 4121600011
   - Alief Noer Ahmad - 4121600022
   - Alifianto Fahmi Syahputra - 4121600023
-    
+  
 - Mechatronics B 2021
   - Rega Towinangun - 4121600037
   - Alfin Rizki Prayoga - 4121600052
